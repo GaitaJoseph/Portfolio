@@ -257,8 +257,10 @@ const routes = [
 
 // Create the Vue Router instance
 const router = new VueRouter({
+    mode: 'hash',  // Use hash mode instead of history mode
     routes
-});
+  });
+  
 
 // Create the Vue instance
 new Vue({
